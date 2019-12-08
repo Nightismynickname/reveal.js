@@ -4,10 +4,11 @@
   "description": "reveal.js multiplex server",
   "homepage": "http://revealjs.com",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "index.js"
   },
   "engines": {
-    "node": "~4.1.1"
+    "node": "12.x"
   },
   "dependencies": {
     "express": "~4.13.3",
