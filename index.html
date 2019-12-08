@@ -465,8 +465,8 @@ Reveal.addEventListener( 'customevent', function() {
 
 			multiplex: {
 				// Example values. To generate your own, see the socket.io server instructions.
-				secret: '13652805320794272084', // Obtained from the socket.io server. Gives this (the master) control of the presentation
-				id: '1ea875674b17ca76', // Obtained from socket.io server
+				secret: '15758192806258284294', // Obtained from the socket.io server. Gives this (the master) control of the presentation
+				id: 'be89d9ae50137041', // Obtained from socket.io server
 				url: 'https://reveal-js-multiplex-ccjbegmaii.now.sh' // Location of socket.io server
 			},
 
@@ -479,7 +479,7 @@ Reveal.addEventListener( 'customevent', function() {
 				{ src: 'plugin/zoom-js/zoom.js', async: true },
 				{ src: 'plugin/notes/notes.js', async: true },
 				{ src: '//cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js', async: true },
-				{ src: 'plugin/multiplex/master.js', async: true },
+				{ src: 'plugin/multiplex/client.js', async: true },
 
 				// and if you want speaker notes
 				{ src: 'plugin/notes-server/client.js', async: true }
